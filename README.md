@@ -1,38 +1,58 @@
-# create-svelte
+# Project Name
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+**Description:** This is a GitHub project that utilizes the GNU Affero General Public License (AGPL) and is built using Node.js. It's designed for [describe the purpose or functionality of the project].
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Prerequisites
+
+Before you get started, make sure you have the following software installed on your system:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+
+## Getting Started
+
+To get started with this project, you should first clone the repository to your local machine. Open your terminal and run the following command:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+https://github.com/maverick-github/degen.git
 ```
 
-## Developing
+## Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+After cloning the repository, navigate to the project folder using your terminal:
 
 ```bash
-npm run dev
+cd degen-main
+```
 
-# or start the server and open the app in a new browser tab
+Next, you'll need to install the project's dependencies using npm (Node Package Manager). Run the following command:
+
+```bash
+npm install
+```
+
+This command will download and install all the required Node.js packages specified in the `package.json` file.
+
+## Usage
+
+Now that you have the project and its dependencies installed, you can start using it.
+
+To run the project, you can use the following command:
+
+```bash
 npm run dev -- --open
 ```
 
-## Building
+This command will start the project and make it accessible in your web browser or as per the project's functionality.
 
-To create a production version of your app:
+## License
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the GNU Affero General Public License (AGPL). You can find the full text of the license in the [LICENSE](LICENSE) file included in this repository.
